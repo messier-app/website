@@ -1,0 +1,17 @@
+Package: com.everettjf.messier
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: everettjf
+Installed-Size: 404
+Depends: mobilesubstrate, PreferenceLoader
+Filename: ./debs/Messier/com.everettjf.messier_0.1.1_iphoneos-arm.deb
+Size: 82456
+MD5sum: 0f70d3c16153dd953d232c46d38b561c
+SHA1: 02d05b721df79d53f8d16ee7a7ff123875003f0e
+SHA256: b3178207502c3ab45d40319bb76a64c380021d59409c73d2fb83f21e67e761f6
+Section: Tweaks
+Homepage: https://messier.app
+Description: Messier is a tweak that used for tracing objective-c methods in any iOS apps.
+Author: everettjf
+Name: Messier
+

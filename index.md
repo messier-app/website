@@ -7,7 +7,7 @@ layout: default
 
 - `Messier` is an app (contains several components) for `tracing objective-c methods` in an iOS app.
 
-![temp](https://everettjf.github.io/stuff/appletrace/appletrace.gif)
+![messier](./images/messier.gif)
 
 
 # Typical use-cases

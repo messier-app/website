@@ -91,6 +91,8 @@ MessierMainThreadMethodsOnly : true | false
     - If not worked, create an issue [here]().
 2. Where is the name Messier come from?
     - The [Messier object](https://en.wikipedia.org/wiki/Messier_object) are a set of 110 astronomical objects cataloged by the French astronomer Charles Messier in his Catalogue des Nébuleuses et des Amas d'Étoiles ("Catalogue of Nebulae and Star Clusters")
+3. Connected to another app that is not in the foreground?
+    - Close(Kill) apps that is enabled Messier, then open the target app that you wish to trace.
 
 # Thanks
 

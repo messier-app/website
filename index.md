@@ -12,9 +12,9 @@ layout: default
 
 # Typical use-cases
 
-- Instrumentation (performance monitoring and etc.)
+- Instrumentation (performance monitoring, etc.)
 - Security audit
-- Study confused code
+- Study obfuscated code
 - Just for fun :)
 
 
@@ -88,7 +88,7 @@ MessierMainThreadMethodsOnly : true | false
 
 1. How to deal with crashe when app is launching?
     - Go into `Settings` -> `Messier`, try to disable `Inline Hook`.
-    - If not worked, create an issue [here]().
+    - If still not working, create an issue [here](https://github.com/messier-app/messier/issues).
 2. Where is the name Messier come from?
     - The [Messier object](https://en.wikipedia.org/wiki/Messier_object) are a set of 110 astronomical objects cataloged by the French astronomer Charles Messier in his Catalogue des Nébuleuses et des Amas d'Étoiles ("Catalogue of Nebulae and Star Clusters")
 3. Connected to another app that is not in the foreground?

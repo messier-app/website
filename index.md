@@ -122,6 +122,6 @@ MessierMainThreadMethodsOnly : true | false
 
 # Source code
 
-Sorry, no source code. Messier is free (now) but not opensource.
+Sorry, no source code. Messier is free (now, or at least a half year, or forever) but not opensource.
 
 :)

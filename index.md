@@ -3,30 +3,103 @@ layout: default
 ---
 
 
-*****building**
+# What is Messier
 
-[Link to another page](./another-page).
-
-
-# What Why How
+- `Messier` is an app (contains several components) for `tracing objective-c methods` in an iOS app.
 
 
-## What
+# Typical use-cases
 
-********building**
+- Instrumentation (performance monitoring and etc.)
+- Security audit
+- Study confused code
+- Just for fun :)
 
-## Why 
 
-********building**
+# Components
 
-## How
+- Tweak : called Messier in Cydia Repo, used in `Jailbreak` iOS.
+- Dylib : messier.framework, used in `Non-Jailbreak` iOS or `Debugging` environment.
+- Desktop : installed from Messier.dmg, used to control the endpoint (app that injected by tweak or dylib)
 
-********building**
+# Latest Build
+
+[Latest Build](https://github.com/messier-app/messier/releases)
+
+# Usage
+
+### (1) Desktop
+
+1. Install desktop app `Messier.dmg` from [here](https://github.com/messier-app/messier/releases).
+2. If you wish to trace apps on Jailbreak iOS, you could install the tweak as below.
+3. If you wish to trace apps under debugger, just config your app depending on the dylib(messier.framework) as below.
+
+### (2) Tweak (Jailbreak)
+
+#### > Install
+
+1. Open `Cydia`.
+2. Tap `Sources` -> `Edit` -> `Add`.
+3. Input `https://messier.app/cydia` , tap `Add Source`. After reload the sources, you will see `Messier Repo`.
+4. Go into `Messier Repo`, install the tweak `Messier`. (Messier tweak depends on `PreferenceLoader` and `AppList`, so make sure they are installed)
+
+#### > Configuration
+
+1. Open `Settings`.
+2. Scroll down to the row `Messier`.
+3. Enable app in `Enabled Applications`.
+
+
+### (2) Dylib (Non-Jailbreak)
+
+#### > Install
+
+1. Drag `messier.framework` into `Xcode Targets` -> `Build Phases` -> `Link Binary With Libraries`.
+2. Tap `New Copy Files Phase` to add a `Copy Files` phase, drag `messier.framework` into the region, and config `Destination` to `Frameworks`.
+
+
+#### > Configuration
+
+Normally, no configurations are needed. But there are indeed some as below.
+
+```
+MessierEnableOnAppBoot : true | false
+MessierInlineHook : true | false
+MessierMainThreadMethodsOnly : true | false
+```
+
+
+### (3) Start Trace
+
+1. Open `Desktop Messier`.
+2. Connect iPhone via USB wire.
+3. Open app on iPhone.
+4. Click `Start` or `Stop` to control the `tracing range`.
+5. Click `Fetch` (after `Stop`) to fetch the tracing files, after fetch completed, `trace.json` will generated in the `~/Documents/MessierWorkspace` directory.
+6. Open `Chrome` (or `Chromium`), visit `chrome://tracing`.
+7. Drop `trace.json` into.
+8. Press `w a s d` to enjoy.
+
+# Discussion
+
+[Join Group](./group)
+
+
+# Q&A
+
+1. How to deal with crashe when app is launching?
+
+- Go into `Settings` -> `Messier`, try to disable `Inline Hook`.
+- If not worked, create an issue [here]().
+
+2. Where is the name Messier come from?
+
+- The [Messier object](https://en.wikipedia.org/wiki/Messier_object) are a set of 110 astronomical objects cataloged by the French astronomer Charles Messier in his Catalogue des Nébuleuses et des Amas d'Étoiles ("Catalogue of Nebulae and Star Clusters")
+
 
 # Version History
 
-
-1. v0.1 Born in 2019
-1. v0.0 AppleTrace in 2016
+1. v0.1 Messier born in 2019.05
+1. v0.0 [AppleTrace](https://github.com/everettjf/AppleTrace) born in 2017.09
 
 

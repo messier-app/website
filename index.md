@@ -60,7 +60,7 @@ layout: default
 
 #### > Configuration
 
-Normally, no configurations are needed. But there are indeed some as below.
+Normally, no configurations are needed. But there are indeed some. Goto Xcode `Project Scheme` -> `Run` -> `Arguments`, config `Environment Variables` as below.
 
 ```
 MessierEnableOnAppBoot : true | false
@@ -85,16 +85,17 @@ MessierMainThreadMethodsOnly : true | false
 [Join Group](./group)
 
 
+# Buy Me a Coffee
+
+- [Buy Me a Coffee](./donate)
+
 # Q&A
 
 1. How to deal with crashe when app is launching?
-
-- Go into `Settings` -> `Messier`, try to disable `Inline Hook`.
-- If not worked, create an issue [here]().
-
+    - Go into `Settings` -> `Messier`, try to disable `Inline Hook`.
+    - If not worked, create an issue [here]().
 2. Where is the name Messier come from?
-
-- The [Messier object](https://en.wikipedia.org/wiki/Messier_object) are a set of 110 astronomical objects cataloged by the French astronomer Charles Messier in his Catalogue des Nébuleuses et des Amas d'Étoiles ("Catalogue of Nebulae and Star Clusters")
+    - The [Messier object](https://en.wikipedia.org/wiki/Messier_object) are a set of 110 astronomical objects cataloged by the French astronomer Charles Messier in his Catalogue des Nébuleuses et des Amas d'Étoiles ("Catalogue of Nebulae and Star Clusters")
 
 
 # Version History

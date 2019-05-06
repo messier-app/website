@@ -120,3 +120,8 @@ MessierMainThreadMethodsOnly : true | false
 1. v0.0 [AppleTrace](https://github.com/everettjf/AppleTrace) born in 2017.09
 
 
+# Source code
+
+Sorry, no source code. Messier is free (now) but not opensource.
+
+:)

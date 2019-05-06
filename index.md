@@ -22,7 +22,7 @@ layout: default
 - Dylib : messier.framework, used in `Non-Jailbreak` iOS or `Debugging` environment.
 - Desktop : installed from Messier.dmg, used to control the endpoint (app that injected by tweak or dylib)
 
-# Latest Build
+# Latest build
 
 [Latest Build](https://github.com/messier-app/messier/releases)
 
@@ -43,7 +43,7 @@ layout: default
 3. Input `https://messier.app/cydia` , tap `Add Source`. After reload the sources, you will see `Messier Repo`.
 4. Go into `Messier Repo`, install the tweak `Messier`. (Messier tweak depends on `PreferenceLoader` and `AppList`, so make sure they are installed)
 
-#### > Configuration
+#### > Configurations
 
 1. Open `Settings`.
 2. Scroll down to the row `Messier`.
@@ -58,7 +58,7 @@ layout: default
 2. Tap `New Copy Files Phase` to add a `Copy Files` phase, drag `messier.framework` into the region, and config `Destination` to `Frameworks`.
 
 
-#### > Configuration
+#### > Configurations
 
 Normally, no configurations are needed. But there are indeed some. Goto Xcode `Project Scheme` -> `Run` -> `Arguments`, config `Environment Variables` as below.
 
@@ -80,14 +80,7 @@ MessierMainThreadMethodsOnly : true | false
 7. Drop `trace.json` into.
 8. Press `w a s d` to enjoy.
 
-# Discussion
 
-[Join Group](./group)
-
-
-# Buy Me a Coffee
-
-- [Buy Me a Coffee](./donate)
 
 # Q&A
 
@@ -97,8 +90,27 @@ MessierMainThreadMethodsOnly : true | false
 2. Where is the name Messier come from?
     - The [Messier object](https://en.wikipedia.org/wiki/Messier_object) are a set of 110 astronomical objects cataloged by the French astronomer Charles Messier in his Catalogue des Nébuleuses et des Amas d'Étoiles ("Catalogue of Nebulae and Star Clusters")
 
+# Thanks
 
-# Version History
+- [jmpews/HookZz](https://github.com/jmpews/HookZz)
+- [czqasngit/objc_msgSend_hook](https://github.com/czqasngit/objc_msgSend_hook)
+- [AloneMonkey/cydiarepo](https://github.com/AloneMonkey/cydiarepo)
+
+
+# Discussion
+
+- [Join Discussion](./group)
+
+# Contact me
+
+- [everettjf@live.com](mailto:everettjf@live.com)
+
+# Buy me a coffee
+
+- [Buy Me a Coffee](./donate)
+
+
+# Version history
 
 1. v0.1 Messier born in 2019.05
 1. v0.0 [AppleTrace](https://github.com/everettjf/AppleTrace) born in 2017.09

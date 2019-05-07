@@ -11,8 +11,10 @@ layout: default
 
 ### Wechat Group
 
+关注微信订阅号，点击菜单Messier加群。
 
-![wechatgroup](/images/wechat-group.png)
+![fun](/images/fun.jpg)
+
 
 
 ---

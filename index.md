@@ -9,6 +9,7 @@ layout: default
 
 ![messier](./images/messier.gif)
 
+- [中文说明](https://everettjf.github.io/2019/05/06/messier/)
 
 # Typical use-cases
 

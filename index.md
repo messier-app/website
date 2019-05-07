@@ -6,10 +6,10 @@ layout: default
 # What is Messier
 
 - `Messier` is an app (contains several components) for `tracing objective-c methods` in an iOS app.
+- [中文说明](https://everettjf.github.io/2019/05/06/messier/)
 
 ![messier](./images/messier.gif)
 
-- [中文说明](https://everettjf.github.io/2019/05/06/messier/)
 
 # Typical use-cases
 

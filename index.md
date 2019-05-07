@@ -115,8 +115,9 @@ MessierMainThreadMethodsOnly : true | false
 - [Buy Me a Coffee](./donate)
 
 
-# Version history
+# Changelog
 
+1. v0.2 Bugfix
 1. v0.1 Messier born in 2019.05
 1. v0.0 [AppleTrace](https://github.com/everettjf/AppleTrace) born in 2017.09
 

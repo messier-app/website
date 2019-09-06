@@ -5,20 +5,14 @@ layout: default
 ## Buy Me a coffee
 
 
+关注订阅号，赞助任意文章。Thank you :)
 
-### Paypal
+![fun](/images/fun.jpg)
 
-<https://www.paypal.me/everettjf>
-
-### Wechat
-
-![wechat](/images/wechat-donate.png)
-
-### Alipay
-
-![alipay](/images/alipay-donate.png)
 
 
 ---
 
 [> Back](./)
+
+

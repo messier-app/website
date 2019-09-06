@@ -46,6 +46,8 @@ layout: default
 3. Input `https://messier.app/cydia` , tap `Add Source`. After reloading the sources, you will see `Messier Repo`.
 4. Go into `Messier Repo`, install the tweak `Messier`. (Messier tweak depends on `PreferenceLoader` and `AppList`, so make sure they are installed)
 
+Or manually install from [deb file](https://github.com/messier-app/website/tree/master/cydia/debs/Messier)
+
 #### > Configurations
 
 1. Open `Settings`.
@@ -127,3 +129,5 @@ MessierMainThreadMethodsOnly : true | false
 Sorry, no source code. Messier is free (now, or at least a half year, or forever) but not opensource.
 
 :)
+
+

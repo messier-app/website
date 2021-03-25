@@ -43,7 +43,7 @@ layout: default
 
 1. Open `Cydia`.
 2. Tap `Sources` -> `Edit` -> `Add`.
-3. Input `https://messier.app/cydia` , tap `Add Source`. After reloading the sources, you will see `Messier Repo`.
+3. Input `https://messier-app.github.io/cydia/` , tap `Add Source`. After reloading the sources, you will see `Messier Repo`.
 4. Go into `Messier Repo`, install the tweak `Messier`. (Messier tweak depends on `PreferenceLoader` and `AppList`, so make sure they are installed)
 
 Or manually install from [deb file](https://github.com/messier-app/website/tree/master/cydia/debs/Messier)

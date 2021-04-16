@@ -69,7 +69,6 @@ Normally, no configurations are needed. But there are indeed some. Goto Xcode `P
 
 ```
 MessierEnableOnAppBoot : true | false
-MessierInlineHook : true | false
 MessierMainThreadMethodsOnly : true | false
 ```
 
